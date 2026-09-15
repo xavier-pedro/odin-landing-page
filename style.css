@@ -7,6 +7,11 @@
     font-family: 'Roboto';
 }
 
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .primary-section{
     background-color: #1F2937;
     display: flex;
@@ -60,7 +65,7 @@ ul{
     flex: 1;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 40px;
     margin-bottom: 62px;
 }
 
@@ -75,6 +80,7 @@ ul{
     border-radius: 8px;
     width: fit-content;
     margin-top: 16px;
+    font-weight: bold;
 }
 
 .awesome-section img{
