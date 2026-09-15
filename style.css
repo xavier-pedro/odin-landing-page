@@ -9,6 +9,10 @@
 
 .primary-section{
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 300px;
+    gap: 42px;
 }
 
 .logotype{
@@ -27,6 +31,37 @@
     color: #E5E7EB;
 }
 
-.button{
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.awesome-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+
+.awesome-section button{
     background-color: #3882F6;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    width: fit-content;
+    margin-top: 16px;
 }
