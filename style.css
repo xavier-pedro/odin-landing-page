@@ -11,8 +11,18 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 24px 300px;
+    justify-content: center;
+    align-items: center;
     gap: 42px;
+    padding: 24px 0;
+}
+
+.max-container{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 62px;
 }
 
 .logotype{
@@ -51,6 +61,7 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 62px;
 }
 
 
@@ -64,4 +75,8 @@ ul{
     border-radius: 8px;
     width: fit-content;
     margin-top: 16px;
+}
+
+.awesome-section img{
+    border-radius: 8px;
 }
