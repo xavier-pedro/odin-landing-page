@@ -121,3 +121,20 @@ ul{
     border-radius: 16px;
 }
 
+.inspiring-quote{
+    gap: 8px;
+    padding: 136px;
+}
+
+.phrase{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.inspiring-quote .quote{
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+}
